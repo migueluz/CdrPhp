@@ -1,0 +1,77 @@
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div.ui-datepicker{
+ font-size: 90%;
+}
+
+.header{
+	width: 100%;
+	height: 15px;
+	padding: 12px 5px;	
+	background: #000;
+}
+
+.header h1{
+	margin: 0;
+	padding: 0;
+	font-size: 120%;
+	text-align: center;
+	color: #FFF;
+}
+
+#main{
+	margin-top: 40px;
+}
+
+#date-report-selector{
+	width: 400px;
+	margin: 10px auto;
+	border: 4px solid #CCC;
+	padding: 10px;
+}
+
+#date-report-selector h1{
+	margin: 0;
+	text-align: center;
+	font-size: 140%;
+	margin-bottom: 5px;	
+	font-family: "Century Gothic";
+}
+
+#date-report-selector p{
+	margin: 0;
+	color: #999;
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#date-report-selector form{
+	width: 230px;
+	text-align: center;
+	margin: 1px auto;
+}
+
+#date-report-selector form label{
+	display: inline-block;
+	width: 50px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#date-report-selector form input[type="text"]{
+	border: 2px solid #ABD1D9;
+	background: #FCFFFE;
+	text-align: center;	
+}
+
+#date-report-selector form input[type="submit"]{
+	display: block;
+	margin: 15px auto;	
+}
